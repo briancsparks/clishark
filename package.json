@@ -2,7 +2,11 @@
   "name": "clishark",
   "version": "0.0.1",
   "description": "Like wireshark, but for CLI output",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "preferGlobal" : true,
+  "directories" : {
+    "bin" : "./bin"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
